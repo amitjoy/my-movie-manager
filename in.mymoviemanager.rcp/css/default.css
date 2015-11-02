@@ -1,0 +1,50 @@
+/**
+ * @author AMIT KUMAR MONDAL admin@amitinside.com
+ */
+ 
+.MPartStack   { swt-maximize-visible : false ; swt-minimize-visible : false ; }
+
+.MTrimmedWindow.topLevel {
+}
+ 
+.MPartStack {
+}
+ 
+.MPartStack.active {
+}
+ 
+.MPartStack.empty {
+}
+ 
+.MTrimmedWindow {
+}
+ 
+.MTrimBar {
+}
+ 
+.MTrimBar#org-eclipse-ui-main-toolbar {
+}
+ 
+CTabFolder.MArea .MPartStack,CTabFolder.MArea .MPartStack.active {
+}
+ 
+CTabFolder Canvas {
+}
+ 
+#org-eclipse-ui-editorss {
+
+}
+ 
+#org-eclipse-ui-trim-status{
+
+}
+
+ 
+ 
+#org-eclipse-ui-main-toolbar #PerspectiveSwitcher {
+
+}
+ 
+#PerspectiveSpacer{
+
+}

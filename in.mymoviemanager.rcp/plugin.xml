@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="My Movie Manager Beta"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="appName"
+               value="My Movie Manager Beta">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.LifeCycleHandler">
+         </property>
+         <property
+               name="cssTheme"
+               value="in.mymoviemanager.rcp.theme.default">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            id="in.mymoviemanager.rcp.parts.TagEditorPart"
+            name="Tag Editor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.core.expressions.definitions">
+      <definition
+            id="in.mymoviemanager.rcp.expression.playMovie">
+         <with
+               variable="MOVIE_ON_SELECT_PLAY_MOVIE_BUTTON">
+            <equals
+                  value="enable">
+            </equals>
+         </with>
+      </definition>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="in.mymoviemanager.rcp.preferences.SamplePreferencePage"
+            id="in.mymoviemanager.rcp.preferences.SamplePreferencePage"
+            name="Sample Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="in.mymoviemanager.rcp.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/default.css"
+            id="in.mymoviemanager.rcp.theme.default"
+            label="Default Theme">
+      </theme>
+      <theme
+            basestylesheeturi="css/theme1.css"
+            id="in.mymoviemanager.rcp.theme.theme1"
+            label="Theme 1">
+      </theme>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro">
+      <intro
+            class="org.eclipse.ui.intro.config.CustomizableIntroPart"
+            contentDetector="in.mymoviemanager.rcp.intro.IntroWizard"
+            id="in.mymoviemanager.rcp.intro">
+      </intro>
+      <introProductBinding
+            introId="in.mymoviemanager.rcp.intro"
+            productId="in.mymoviemanager.rcp.product">
+      </introProductBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro.config">
+      <config
+            content="IntroContent.xml"
+            id="in.mymoviemanager.rcp.introConfigId"
+            introId="in.mymoviemanager.rcp.intro">
+         <presentation
+               home-page-id="root">
+            <implementation
+                  kind="html"
+                  os="win32,linux,macosx"
+                  style="content/shared.css">
+            </implementation>
+         </presentation>
+      </config>
+   </extension>
+
+</plugin>

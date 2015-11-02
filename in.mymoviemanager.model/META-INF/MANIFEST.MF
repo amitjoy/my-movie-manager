@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: in.mymoviemanager.model
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MYMOVIEMANAGER
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: in.mymoviemanager.rcp.filerepository,
+ in.mymoviemanager.rcp.model

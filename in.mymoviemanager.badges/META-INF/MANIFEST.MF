@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bagdes
+Bundle-SymbolicName: in.mymoviemanager.badges
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MYMOVIEMANAGER
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: in.mymoviemanager.xml;bundle-version="1.0.0"
+Export-Package: in.mymoviemanager.badges

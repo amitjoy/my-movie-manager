@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Wordguess
+Bundle-SymbolicName: in.mymoviemanager.wordguess
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MYMOVIEMANAGER
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: in.mymoviemanager.wordguess
+Import-Package: in.mymoviemanager.badges

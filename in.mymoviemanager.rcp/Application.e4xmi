@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_s-jLUO49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_s-jLWe49EeKO4IOswqpFoQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_s-jLUe49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp" selectedElement="_s7deQO5BEeKO4IOswqpFoQ" label="My Movie Manager Beta" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/icon.png" tooltip="My Movie Manager Beta" x="50" y="80" width="1050" height="600">
+    <tags>shellMaximized</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_s7deQO5BEeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.partsashcontainer.theWholeApp" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_0X_eEO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.partstack.leftSideBrowserViews" containerData="37">
+        <tags>NoAutoCollapse</tags>
+        <children xsi:type="basic:Part" xmi:id="_5FhkMO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.part.moviesCollection" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.MovieBrowserPart" label="Movies Collection" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/movie_browser.png">
+          <tags>moviesCollection</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_ckJdQPZzEeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.popupmenu.deleteRenameActions1">
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_PDF2kPZ0EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handledmenuitem.rename" label="Rename" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/rename.png" command="_3IHrMPZzEeK8qYGbAcqRbQ"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_ToEdoPZ0EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handledmenuitem.delete" label="Delete" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/delete.png" command="___EdwPZzEeK8qYGbAcqRbQ"/>
+          </menus>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_LycWUO4-EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.part.badgesList" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.CategoryBrowserPart" label="Badges List" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/badgewise_browser.png">
+          <tags>badgesList</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_W4fy8PZ8EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.popupmenu.deleteRenameActions2">
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_ZXchoPZ8EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handledmenuitem.rename" label="Rename" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/rename.png" command="_3IHrMPZzEeK8qYGbAcqRbQ"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_cnKl8PZ8EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handledmenuitem.delete" label="Delete" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/delete.png" command="___EdwPZzEeK8qYGbAcqRbQ"/>
+          </menus>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_TkQbcPhzEeKYlInQBHfpRw" elementId="in.mymoviemanager.rcp.popupmenu.dummyPopUp"/>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Grg44PQJEeKoa_WRtTQyPw" elementId="in.mymoviemanager.rcp.part.selectedBadgeCategory" visible="false" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.SpecificBadgeCategoryListingView" label="Category " iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/specificbadges_browser.png">
+          <tags>categoryList</tags>
+          <menus xsi:type="menu:PopupMenu" xmi:id="_iG4-APZ8EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.popupmenu.deleteRenameActions3">
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_i_NtIPZ8EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handledmenuitem.rename" label="Rename" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/rename.png" command="_3IHrMPZzEeK8qYGbAcqRbQ"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_lwPDQPZ8EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handledmenuitem.delete" label="Delete" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/delete.png" command="___EdwPZzEeK8qYGbAcqRbQ"/>
+          </menus>
+        </children>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_1rjXsO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.partsashcontainer.rightSideViews" containerData="63">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_yGXjwPHtEeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.partsashcontainer.rightSideViewsStack">
+          <children xsi:type="basic:PartStack" xmi:id="_617K0O49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.partstack.rightUpperSideStack" containerData="7">
+            <tags>NoAutoCollapse</tags>
+            <children xsi:type="basic:Part" xmi:id="_CYwDEO4-EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.part.assignedBadges" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.BadgeViewPart" label=" Assigned Badges" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/badgewise_browser.png">
+              <tags>NoMove</tags>
+              <tags>assignedBadges</tags>
+              <menus xsi:type="menu:PopupMenu" xmi:id="_1kBD0O_TEeKCqP00ZxPPlQ" elementId="in.mymoviemanager.rcp.popupmenu.badge" label="TagPopUp">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_6LY3kO_TEeKCqP00ZxPPlQ" elementId="in.mymoviemanager.rcp.handledmenuitem.removeBadge" label="Remove Badge" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/remove_tag.png" command="_3HGp8PBREeK8Ur0FPkh07w"/>
+              </menus>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_9WrQUO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.part.imdbDetails" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.ImdbViewPart" label=" IMDB Details " iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/imdb.png">
+              <tags>NoMove</tags>
+              <tags>imdbDetails</tags>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_qQZ6MO_WEeKCqP00ZxPPlQ" elementId="in.mymoviemanager.rcp.part.actionsView" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.ActionsViewPart" label=" Actions ">
+              <tags>NoMove</tags>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_xQr60PDuEeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.part.specialBadgesInfo" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.SideWiserDataView" label="Special Badges Info">
+              <tags>NoMove</tags>
+            </children>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_zk5XQPHtEeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.partstack.leftLowerStack" containerData="3">
+            <children xsi:type="basic:Part" xmi:id="_71DFgO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.part.movieFileDetails" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.DetailsViewPart" label=" Movie File Details " iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/file_details.png">
+              <tags>NoMove</tags>
+              <tags>movieFileDetails</tags>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_-mpDYO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.part.movieSubtiltle" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.views.SubtitlesViewPart" label=" Subtitle Details " iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/subtitle_details.png">
+              <tags>NoMove</tags>
+              <tags>subtitleDetails</tags>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_s-jLae49EeKO4IOswqpFoQ" elementId="menu:org.eclipse.ui.main.menu" visible="false">
+      <children xsi:type="menu:Menu" xmi:id="_Wyv_YO9tEeKbCvbjysRAcQ" elementId="com.mymoviemanager.rcp.menu.0" visible="false" label="Folder">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_YBbZAO9tEeKbCvbjysRAcQ" elementId="com.mymoviemanager.rcp.handledmenuitem.0" label="Select Movie Folder" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/newFolder_16.png" mnemonics="F" command="_TDTrgO6kEeKdHOYAI3tiIw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kXf90O9tEeKbCvbjysRAcQ" elementId="com.mymoviemanager.rcp.handledmenuitem.2" label="Rescan Movie Folder" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/reScan_16.png" mnemonics="R" command="_1yys0O9pEeKbCvbjysRAcQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_oXzKgO9tEeKbCvbjysRAcQ" elementId="com.mymoviemanager.rcp.handledmenuitem.3" label="Quit" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/exit.png" command="_s-jLXO49EeKO4IOswqpFoQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_iTiBUO91EeKbCvbjysRAcQ" elementId="com.mymoviemanager.rcp.menu.1" visible="false" label="File" mnemonics="F">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_lEHSkO91EeKbCvbjysRAcQ" elementId="com.mymoviemanager.rcp.handledmenuitem.1" label="Play Movie" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/play_16.png" tooltip="Play Movie" command="_s-jLZu49EeKO4IOswqpFoQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_s-jLbu49EeKO4IOswqpFoQ" elementId="com.mymoviemanager.rcp.menu.1" visible="false" label="Help" iconURI="">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_s-jLb-49EeKO4IOswqpFoQ" label="About" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/help.png" command="_s-jLZu49EeKO4IOswqpFoQ"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_s-jLde49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.trim.topToolbar">
+      <children xsi:type="menu:ToolControl" xmi:id="_LtFhsO7tEeK5rIU2NkqlJg" elementId="in.mymoviemanager.rcp.trim.topControl" visible="false" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.tool.controls.UpdateStatusBarJobToolControl"/>
+      <children xsi:type="menu:ToolBar" xmi:id="_s-jLdu49EeKO4IOswqpFoQ" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_gkfHwPRmEeKR4LoiY9qZxw" elementId="in.mymoviemanager.rcp.toolbarseparator.1" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_s-jLd-49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.trim.toolbar.selectMovieFolder" label="Select Movie Folder" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/newFolder.png" tooltip="Select Movie Folder" command="_TDTrgO6kEeKdHOYAI3tiIw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_awi4kO-XEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.toolbarseparator.2" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_s-jLeO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.trim.toolbar.rescanMovieFolder" label="Rescan Movie Folder" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/reScan.png" tooltip="Rescan Movie Folder" command="_1yys0O9pEeKbCvbjysRAcQ"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_bK6gYO-XEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.toolbarseparator.3" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gJ9qgPAqEeKL_-rxPI3T6Q" elementId="in.mymoviemanager.rcp.trim.toolbar.userSettings" label="User Settings" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/settings.png" tooltip="User Settings" command="_-tJkkPLeEeKaOLyTPLS0tw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_pYZIkPczEeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.toolbarseparator.4" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9P26UO90EeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.trim.toolbar.playMovie" label="Play Movie" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/play.png" tooltip="Play Movie" command="_Xs4CYPE7EeKOo7jxfEiZsA">
+          <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_oBwtkPB0EeKOo7jxfEiZsA" coreExpressionId="CodeSnippetApp.delete.snippet.expression"/>
+        </children>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_6kc5oO-YEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.toolbarseparator.5" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dkjuIPczEeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.trim.toolbar.renameMovie" label="Rename Movie" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/rename_toolbar.png" command="_3IHrMPZzEeK8qYGbAcqRbQ"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_fcvYIPAqEeKL_-rxPI3T6Q" elementId="in.mymoviemanager.rcp.toolbarseparator.6" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_su3fsPc0EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.trim.toolbar.deleteMovie" label="Delete Movie" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/delete-movie.png" command="___EdwPZzEeK8qYGbAcqRbQ"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_sPJd0Pc0EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.toolbarseparator.7" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_h0RwcPMNEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.trim.toolbar.addBadge" label="Add Badge" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/add.png" tooltip="Add Badge" command="_u87BsPMNEeKaOLyTPLS0tw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_t4IDoPAqEeKL_-rxPI3T6Q" elementId="in.mymoviemanager.rcp.toolbarseparator.8" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0xC2oPN0EeKUrYJElwHSxQ" elementId="in.mymoviemanager.rcp.trim.toolbar.removeBadge" label="Remove Badge" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/remove.png" command="_3HGp8PBREeK8Ur0FPkh07w"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_gR3igPMNEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.toolbarseparator.9" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BMkUsPBrEeKCc-DhSnnn4Q" elementId="in.mymoviemanager.rcp.trim.toolbar.restartApplication" label="Restart My Movie Manager" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/restart.png" tooltip="Restart My Movie Manager" command="_vT0_0PDeEeKOo7jxfEiZsA"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_nxQFMPMNEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.toolbarseparator.10" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_YePnIPRrEeKR4LoiY9qZxw" elementId="in.mymoviemanager.rcp.trim.toolbar.specialBadgeView" label="Special Badges" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/favbadges.png" tooltip="Special Badges" command="_lA3lkPuPEeK4F7vjlOcGzg"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_7U0FoPN0EeKUrYJElwHSxQ" elementId="in.mymoviemanager.rcp.toolbarseparator.11" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_jvvBIO-XEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.trim.toolbar.aboutInfo" label="About Info" iconURI="platform:/plugin/in.mymoviemanager.rcp/icons/help.png" tooltip="Help" command="_s-jLZu49EeKO4IOswqpFoQ"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_xGkJAPoDEeKIFtuM15QYJw" elementId="in.mymoviemanager.rcp.trim.bottomStatusBar" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_yyHeYAp2EeO29PqDsuLdog" elementId="in.mymoviemanager.rcp.toolcontrol.backgroundJob" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.tool.controls.UpdateStatusBarJobToolControl"/>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_s-jLXe49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.handler.quitCommand" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.QuitHandler" command="_s-jLXO49EeKO4IOswqpFoQ"/>
+  <handlers xmi:id="_s-jLYe49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.handler.openCommand" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.OpenHandler" command="_s-jLYO49EeKO4IOswqpFoQ"/>
+  <handlers xmi:id="_s-jLZO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.handler.saveCommand" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.SaveHandler" command="_s-jLY-49EeKO4IOswqpFoQ"/>
+  <handlers xmi:id="_s-jLZ-49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.handler.aboutCommand" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.AboutHandler" command="_s-jLZu49EeKO4IOswqpFoQ"/>
+  <handlers xmi:id="_Zs51sO6kEeKdHOYAI3tiIw" elementId="in.mymoviemanager.rcp.handler.newMovieProject" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.NewFolderHandler" command="_TDTrgO6kEeKdHOYAI3tiIw"/>
+  <handlers xmi:id="__KRSMO9sEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.handler.rescanFolder" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.RescanFolderHandler" command="_1yys0O9pEeKbCvbjysRAcQ"/>
+  <handlers xmi:id="_8llE0PBREeK8Ur0FPkh07w" elementId="in.mymoviemanager.rcp.handler.removeBadge" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.RemoveTagHandler" command="_3HGp8PBREeK8Ur0FPkh07w"/>
+  <handlers xmi:id="_ETWtwPDfEeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.handler.restartApp" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.RestartManager" command="_vT0_0PDeEeKOo7jxfEiZsA"/>
+  <handlers xmi:id="_ayXzsPE7EeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.handler.playMovie" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.PlayMovieHandler" command="_Xs4CYPE7EeKOo7jxfEiZsA"/>
+  <handlers xmi:id="_DMNw4PLfEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.handler.userPreference" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.UserPreferenceDialogOpen" command="_-tJkkPLeEeKaOLyTPLS0tw"/>
+  <handlers xmi:id="_ygoZAPMNEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.handler.addBadge" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.AddBadgeHandler" command="_u87BsPMNEeKaOLyTPLS0tw"/>
+  <handlers xmi:id="_-YpfkPUgEeKaragW_yvvog" elementId="in.mymoviemanager.rcp.handler.storePreference" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.StoreUserPreferencesHandler" command="_68apQPUgEeKaragW_yvvog"/>
+  <handlers xmi:id="_D7pBAPZ0EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handler.renameMovieFile" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.RenameMovieHandler" command="_3IHrMPZzEeK8qYGbAcqRbQ"/>
+  <handlers xmi:id="_I009gPZ0EeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.handler.deleteMovieFile" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.DeleteMovieHandler" command="___EdwPZzEeK8qYGbAcqRbQ"/>
+  <handlers xmi:id="_pTl_APuPEeK4F7vjlOcGzg" elementId="in.mymoviemanager.rcp.handler.showBadgesDialog" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.handlers.OpenBadgesDialogHandler" command="_lA3lkPuPEeK4F7vjlOcGzg"/>
+  <bindingTables xmi:id="_s-jLXu49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.keyMapping" bindingContext="_s-jLWe49EeKO4IOswqpFoQ">
+    <bindings xmi:id="_s-jLX-49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.keybinding.quit" keySequence="M1+Q" command="_s-jLXO49EeKO4IOswqpFoQ"/>
+    <bindings xmi:id="_s-jLYu49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.keybinding.open" keySequence="M1+O" command="_s-jLYO49EeKO4IOswqpFoQ"/>
+    <bindings xmi:id="_s-jLaO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.keybinding.aboutInfo" keySequence="M1+I" command="_s-jLZu49EeKO4IOswqpFoQ"/>
+    <bindings xmi:id="_wuXvwO6wEeKdHOYAI3tiIw" elementId="in.mymoviemanager.rcp.keybinding.newProjectFolder" keySequence="M1+M" command="_TDTrgO6kEeKdHOYAI3tiIw"/>
+    <bindings xmi:id="_S5lgMO-TEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.keybinding.playMovie" keySequence="M1+P" command="_Xs4CYPE7EeKOo7jxfEiZsA"/>
+    <bindings xmi:id="_Zi_NcPFREeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.keybinding.showPreferenceWindow" keySequence="M1+U" command="_-tJkkPLeEeKaOLyTPLS0tw"/>
+    <bindings xmi:id="_Yp17YPN0EeKUrYJElwHSxQ" elementId="in.mymoviemanager.rcp.keybinding.addBadge" keySequence="M1+B" command="_u87BsPMNEeKaOLyTPLS0tw"/>
+    <bindings xmi:id="_CTRFgPN1EeKUrYJElwHSxQ" elementId="in.mymoviemanager.rcp.keybinding.removeBadge" keySequence="M1+SHIFT+B" command="_3HGp8PBREeK8Ur0FPkh07w"/>
+    <bindings xmi:id="_bWAJkPsdEeK8tJOepFZ4ww" elementId="in.mymoviemanager.rcp.keybinding.renameMovie" keySequence="M1+R" command="_3IHrMPZzEeK8qYGbAcqRbQ"/>
+    <bindings xmi:id="_gxHucPsdEeK8tJOepFZ4ww" elementId="in.mymoviemanager.rcp.keybinding.deleteMovie" keySequence="M1+D" command="___EdwPZzEeK8qYGbAcqRbQ"/>
+    <bindings xmi:id="_vewAgPsdEeK8tJOepFZ4ww" elementId="in.mymoviemanager.rcp.keybinding.restart" keySequence="M1+S" command="_vT0_0PDeEeKOo7jxfEiZsA"/>
+    <bindings xmi:id="_0SkU0PsdEeK8tJOepFZ4ww" elementId="com.mymoviemanager.rcp.keybinding.8" keySequence="F1" command="_lA3lkPuPEeK4F7vjlOcGzg"/>
+    <bindings xmi:id="_A2Gt4PseEeK8tJOepFZ4ww" elementId="in.mymoviemanager.rcp.keybinding.rescanExistingFolder" keySequence="M1+SHIFT+S" command="_1yys0O9pEeKbCvbjysRAcQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_s-jLWe49EeKO4IOswqpFoQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_s-jLWu49EeKO4IOswqpFoQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_s-jLW-49EeKO4IOswqpFoQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <descriptors xmi:id="_J9aT8O_WEeKCqP00ZxPPlQ" elementId="in.mymoviemanager.rcp.partdescriptor.temporary" label=""/>
+  <trimContributions xmi:id="_Sd-MwP3tEeKY7rwpKBnayQ" elementId="toolbar:org.eclipse.ui.trim.status" parentId="in.mymoviemanager.rcp.trimbar.statusBar" positionInParent="left">
+    <children xsi:type="menu:ToolControl" xmi:id="_WWv1IP3tEeKY7rwpKBnayQ" elementId="in.mymoviemanager.rcp.toolcontrol.progress"/>
+  </trimContributions>
+  <commands xmi:id="_s-jLXO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.command.quitApplication" commandName="Quit Application" category="_cuxugAFsEeOVsNbVcr6HFg"/>
+  <commands xmi:id="_s-jLYO49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.command.open" commandName="Open Application" category="_cuxugAFsEeOVsNbVcr6HFg"/>
+  <commands xmi:id="_s-jLY-49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.command.save" commandName="Save Command" category="_cuxugAFsEeOVsNbVcr6HFg"/>
+  <commands xmi:id="_s-jLZu49EeKO4IOswqpFoQ" elementId="in.mymoviemanager.rcp.command.about" commandName="About Dialog" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_TDTrgO6kEeKdHOYAI3tiIw" elementId="in.mymoviemanager.rcp.command.newFolder" commandName="New Movie Project" description="Creates New Movie Project" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_1yys0O9pEeKbCvbjysRAcQ" elementId="in.mymoviemanager.rcp.command.reScan" commandName="Rescan Folder" description="Rescans Folder for indexing" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_3HGp8PBREeK8Ur0FPkh07w" elementId="in.mymoviemanager.rcp.command.removeBadge" commandName="Remove Badge" description="Remove Tag" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_vT0_0PDeEeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.command.restart" commandName="Restart Application" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_Xs4CYPE7EeKOo7jxfEiZsA" elementId="in.mymoviemanager.rcp.command.play" commandName="Play Movie" description="Plays Movie" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_-tJkkPLeEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.command.preferences" commandName="User Preference" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_u87BsPMNEeKaOLyTPLS0tw" elementId="in.mymoviemanager.rcp.command.addBadge" commandName="Add Badge" description="Add Badge" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_68apQPUgEeKaragW_yvvog" elementId="in.mymoviemanager.rcp.command.prefStore" commandName="Store User Preferences" category="_cuxugAFsEeOVsNbVcr6HFg">
+    <parameters xmi:id="_eITn4PUkEeKaragW_yvvog" elementId="com.mymoviemanager.rcp.commandparameter.prefValues" name="prefVal" typeId="Map"/>
+  </commands>
+  <commands xmi:id="_3IHrMPZzEeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.command.renameMovie" commandName="Rename Movie File" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="___EdwPZzEeK8qYGbAcqRbQ" elementId="in.mymoviemanager.rcp.command.deleteMovie" commandName="Delete Movie File" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <commands xmi:id="_lA3lkPuPEeK4F7vjlOcGzg" elementId="in.mymoviemanager.rcp.command.showBadgesDialog" commandName="Badges Dialog" category="_nO8OsAF5EeOsgJ2pzsH5WQ"/>
+  <addons xmi:id="_s-jLUu49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_s-jLU-49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_s-jLVO49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_s-jLVe49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_s-jLVu49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_s-jLV-49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_s-jLWO49EeKO4IOswqpFoQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_Ipm0YAjdEeOWN-7vjOwueA" elementId="in.mymoviemanager.rcp.addon.contextVariables" contributionURI="bundleclass://in.mymoviemanager.rcp/in.mymoviemanager.rcp.addon.CustomAddon"/>
+  <categories xmi:id="_YYylsAFsEeOVsNbVcr6HFg" elementId="in.mymoviemanager.rcp.category.view" name="View" description="This symbolizes the command to be present in View"/>
+  <categories xmi:id="_cuxugAFsEeOVsNbVcr6HFg" elementId="in.mymoviemanager.rcp.category.internal" name="Internal" description="This symbolizes the command to be present in internal rcp"/>
+  <categories xmi:id="_nO8OsAF5EeOsgJ2pzsH5WQ" elementId="in.mymoviemanager.rcp.category.toolbar" name="toolbar" description="This symbolizes the command to be present in toolbar"/>
+</application:Application>

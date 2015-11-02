@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet
+Bundle-SymbolicName: in.mymoviemanager.restlet
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.restlet,
+ org.restlet.data,
+ org.restlet.ext.net,
+ org.restlet.ext.net.internal,
+ org.restlet.representation,
+ org.restlet.resource

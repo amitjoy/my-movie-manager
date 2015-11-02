@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Security
+Bundle-SymbolicName: in.mymoviemanager.security
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MYMOVIEMANAGER
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: in.mymoviemanager.security,
+ in.mymoviemanager.security.key

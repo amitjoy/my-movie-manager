@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Xml
+Bundle-SymbolicName: in.mymoviemanager.xml
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MYMOVIEMANAGER
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: in.mymoviemanager.xml.convert,
+ in.mymoviemanager.xml.service
+Import-Package: in.mymoviemanager.rcp.filerepository,
+ in.mymoviemanager.rcp.model,
+ in.mymoviemanager.security,
+ in.mymoviemanager.security.key,
+ in.mymoviemanager.xml.convert,
+ org.osgi.framework;version="1.7.0"
+Require-Bundle: org.eclipse.e4.core.di;bundle-version="1.3.0"
