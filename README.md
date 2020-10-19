@@ -1,3 +1,5 @@
+My Movie Manager 
+
 # Description #
 
 This rich client application offers a powerful organizational tool for those ones who have a collection of movies and TV shows in digital format. This application lets you easily create your collection based on our your badges. It also does deliver an efficient way of showcasing your digital data for enhanced management
